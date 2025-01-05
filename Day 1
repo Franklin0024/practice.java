@@ -1,0 +1,11 @@
+//sart the program in Basics
+import java.util.Scanner;
+public class Main{
+public static void main (String[] args) {
+    
+    Scanner k =new Scanner(System.in);
+    int num=k.nextInt();
+    for(int i=0;i<5;i++)
+    System.out.print("*");
+    }
+}
