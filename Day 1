@@ -1,4 +1,4 @@
-//Declaring integer and display
+1//Declaring integer and display
 
 import java.util.Scanner;
 public class Main
@@ -7,5 +7,16 @@ public class Main
     {
         int num=20;
         System.out.print("My Age is"+num);
+    }
+}
+
+ 2//Adding 2 integers
+import java.util.Scanner;
+public class Main{
+    public static void main(String[]args)
+    {
+        int num1=5;
+        int num2=5;
+       System.out.println(num1+num2);
     }
 }
