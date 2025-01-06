@@ -10,7 +10,7 @@ public class Main
     }
 }
 
- 2//Adding 2 integers
+ 2//Adding two numbers 
 import java.util.Scanner;
 public class Main{
     public static void main(String[]args)
@@ -18,5 +18,20 @@ public class Main{
         int num1=5;
         int num2=5;
        System.out.println(num1+num2);
+    }
+}
+
+3//Getting user input and addition of two integer number
+import java.util.Scanner;
+public class Main{
+    public static void main(String[]args)
+    
+    {
+        int num1,num2;
+        
+        Scanner hit=new Scanner(System.in);
+        num1=hit.nextInt();
+        num2=hit.nextInt();
+        System.out.print(num1+num2);
     }
 }
