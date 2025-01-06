@@ -49,3 +49,30 @@ public class Main{
         
     }
 }
+
+5//Getting user input and addition of two Double number
+
+import java.util.Scanner;
+public class Main{
+    public static void main(String[]args)
+    {
+        Double num1,num2;
+        Scanner HP=new Scanner(System.in);
+        num1=HP.nextDouble();
+        num2=HP.nextDouble();
+        System.out.println(num1+num2);
+    }
+}
+
+6//.Getting User name as input and display it
+
+import java.util.Scanner;
+public class Main{
+    public static void main(String[]args)
+    {
+        String name;
+        Scanner HP=new Scanner(System.in);
+        name=HP.nextLine();
+        System.out.print("My Name is: "+name);
+    }
+}
