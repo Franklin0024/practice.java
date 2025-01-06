@@ -76,3 +76,15 @@ public class Main{
         System.out.print("My Name is: "+name);
     }
 }
+
+7//Getting User message as input and display it
+import java.util.Scanner;
+public class Main{
+    public static void main(String[]args)
+    {
+        String msg;
+        Scanner HP=new Scanner(System.in);
+        msg=HP.nextLine();
+        System.out.print(msg);
+    }
+}
