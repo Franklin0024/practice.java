@@ -35,3 +35,17 @@ public class Main{
         System.out.print(num1+num2);
     }
 }
+
+4//Getting user input and addition of two float number
+import java.util.Scanner;
+public class Main{
+    public static void main(String[]args)
+    {
+        Float num1,num2;
+        Scanner hit=new Scanner(System.in);
+        num1=hit.nextFloat();
+        num2=hit.nextFloat();
+       System.out.println(num1+num2);
+        
+    }
+}
